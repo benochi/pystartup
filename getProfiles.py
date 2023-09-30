@@ -1,6 +1,6 @@
 import os
 import json
-
+#BE sure to change your username for your machine. 
 CHROME_USER_DATA_DIR = r'C:\Users\Dan\AppData\Local\Google\Chrome\User Data'
 
 def get_chrome_profile_names(directory):
