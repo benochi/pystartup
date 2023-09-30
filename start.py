@@ -3,8 +3,7 @@ import os
 def launch_chrome_profiles():
     #Run getProfiles.py to find your chrome profile names.
     profiles = [
-        "Profile 5",
-        "Profile 2",
+        "Profile 6",
         "Profile 7",
         "Profile 8",
         "Default"
