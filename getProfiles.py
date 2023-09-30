@@ -1,7 +1,7 @@
 import os
 import json
 
-CHROME_USER_DATA_DIR = r'C:\Users\[YOUR NAME HERE]\AppData\Local\Google\Chrome\User Data'
+CHROME_USER_DATA_DIR = r'C:\Users\Dan\AppData\Local\Google\Chrome\User Data'
 
 def get_chrome_profile_names(directory):
     """Returns the profile name as seen in Chrome UI from the Preferences file."""

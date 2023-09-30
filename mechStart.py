@@ -1,15 +1,15 @@
-import os
+from playsound import playsound
 
-# Path to the MP3 files
+# Path to the MP3 file (now in the same directory as the script)
 mp3_files = [
-    r'C:\path\to\mechwarrior\song1.mp3',
-    r'C:\path\to\mechwarrior\song2.mp3',
-    # ... add more paths as needed
+    'mw2start.mp3',  # Assuming the file is named "mw2start.mp3"
+    # ... other paths if needed
 ]
 
 def play_mp3s():
     for mp3 in mp3_files:
-        os.system(f'"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe" "{mp3}"')
-        
+        print(f"Playing {mp3}...")
+        playsound(mp3)
+
 if __name__ == "__main__":
     play_mp3s()
